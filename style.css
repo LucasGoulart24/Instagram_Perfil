@@ -86,12 +86,12 @@ body{
 /*Banner*/
 .banner{
     width: 100%;
-    padding: 10px;
+    height: 27vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #000;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 /*Foto*/
@@ -106,5 +106,46 @@ body{
 .card{
     width: 40%;
     height: 19vh;
+}
+
+/*Info*/
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info h3{
+    margin-right: 150px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.info button{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f3f3f;
+    margin-right: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.info button:hover{
     background-color: #626262;
+}
+
+.info2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 0 29px;
+}
+
+span{
+    color: #818181;
 }
